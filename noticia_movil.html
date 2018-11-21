@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		
+		<link rel="stylesheet"  type="text/css" href="css/style.css">
+		<link rel="stylesheet"  type="text/css" href="css/style_menu_main.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+		<link rel="shortcut icon" href="ordenador.ico" type="image/x-icon" />
+		<title>labDevices</title>
+		<meta charset="UTF-8">
+  		<meta name="descripción" content="Noticias de dispositivos electrónicos">
+ 		<meta name="keywords" content="HTML,CSS,JS">
+      	<meta name="autor" content="Perla Arroyos">
+      	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+      	<script type="text/javascript" src="JavaScript/javaScript.js"></script>
+
+	</head>
+		
+	<body class="colorPag">
+
+		<div class="container">
+		
+			<div class="row">
+			<div class="col-12">
+				<header><h1 id="namepagina"><i>labDevices</i></h1></header>
+			</div>
+			</div>
+
+			<div class="row" >
+			<div class="col-12">
+				<hr>
+				<nav>
+				<ul id="menu" id="sticky">
+				<li class="opcmenu" class="descmenu"><a class="descmenu" class="nav-item nav-link" href="index.html">Inicio</a></li>
+				<li class="opcmenu" class="descmenu"><a class="descmenu" class="nav-item nav-link" href="registro.html">Registro</a></li>
+				<li class="opcmenu" class="descmenu"><a class="descmenu" class="nav-item nav-link" href="categoria.html">Categoría</a></li>
+				<li class="opcmenu" class="descmenu"><a class="descmenu" class="nav-item nav-link" href="contacto.html">Acerca de</a></li>
+				</ul>
+				</nav>
+				<hr>
+			</div>
+			</div>
+
+		<div >
+		<a href="https://www.facebook.com/" target="_blank">
+		<img class="icon tam" style="top:200px;cursor:pointer;" src="images/facebook.png" onmouseover="sobreIcon1()" onmouseout="fueraIcon1()">
+		</a>
+		<a href="https://twitter.com/" target="_blank">
+		<img class="icon tam" style="top:250px;cursor:pointer;" src="images/gorjeo.png" onmouseover="sobreIcon2()" onmouseout="fueraIcon2()">
+		</a>
+		<a href="https://www.instagram.com/" target="_blank">
+		<img class="icon tam" style="top:300px;cursor:pointer;" src="images/instagram.png" onmouseover="sobreIcon3()" onmouseout="fueraIcon3()">
+		</a>
+		</div>
+
+			<div class="row">
+			<div class="col-12">
+				<i class="fa fa-cloud" style="font-size:48px;color:red;"></i> <a href="categoria.html" target="_self" style="text-decoration:none" id="vinc" onmouseover="sobreVinc1()" onmouseout="fueraVinc1()"><i>Regresar a categorias</i></a>
+			</div>
+			</div>
+
+			<div class="row">
+			<div class="col-8">
+				<section style="margin:20px">
+				<articlie>
+				<h3 style="color:rgb(0,0,0);">Samsung 'Beyond X': el Galaxy para conmemorar el décimo aniversario llegará con pantalla de 6,7", seis cámaras y 5G, según el WSJ</h4>
+				<br>
+				<p><img src="images/movil.jpg" alt="movilSamsung" style="max-width:100%;height:auto;float:right;margin:10px;cursor:pointer;" onmouseover="this.width=650;this.height=550;" onmouseout="this.width=200;this.height=150;" width="200" height="100" />Samsung prepara algo grande para la celebración del décimo aniversario de la gama Galaxy. Del que sería el Galaxy S10 se ha rumoreado que vendrá en tres versiones distintas, pero además ahora conocemos que Samsung lanzaría un modelo especial de nombre en clave 'Beyond X', un modelo que según el Wall Street Journal llegaría con una pantalla de 6,7 pulgadas, seis cámaras y compatibilidad con 5G.<p/>
+
+				<p>Los modelos estándar del Galaxy S10 ofrecerían pantallas que irían de las 5,8 a las 6,4 pulgadas, unos tamaños bastante similares a lo que se ofrece ahora en la gama Galaxy S9. Adicionalmente, se incorporarían cámaras dobles y triples en la parte trasera. Pero este Samsung Galaxy 'Beyond X' sería el modelo que atraería todas las miradas, de manera equivalente a lo que ocurrió con el lanzamiento del iPhone X por parte de Apple.</p>
+
+				<h6>Lo último de Samsung para conmemorar el 10º aniversario con un modelo Galaxy especial</h6>
+				<input type="button" value="Seguir leyendo" style="cursor:pointer;" onclick="mostrarNoticia()"></input>
+				<br>
+				<br>
+				<p id="p1"></p>
+				<p id="p2"></p>
+				<p id="p3"></p>
+				</article>
+				</section>
+				<br>
+			</div>
+
+			<div class="col-4">
+				<aside>
+				<h4 id="blink" class="blinkText">Noticias cada semana</h4>
+				<br>
+				<p id="reloj" class="fechaHora"></p>
+				<p id="fecha" class="fechaHora"></p>
+				</aside>
+			</div>
+
+			</div>
+
+			<div class"row">
+			<div class"col-12" class="footer">
+				<footer>
+				<hr>
+				<pre>Autor:
+				Perla María Arroyos Ramírez.
+				</pre>
+				<pre>Contacto:
+				<a href="al164026@alumnos.uacj.mx" id="vinc3" onmouseover="sobreVinc3()" onmouseout="fueraVinc3()">al164026@alumnos.uacj.mx</a>
+				</pre>
+				<hr>
+				</footer>
+			</div>
+			</div>
+
+		</div>
+		
+	</body>
+</html>

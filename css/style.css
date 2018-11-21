@@ -1,0 +1,74 @@
+@charset "UTF-8";
+
+.colorPag{
+	background-color:rgb(230,230,230);
+}
+
+#namepagina{
+	color:rgb(0,90,156);
+	margin: 20px;
+	font-family:times;
+	text-align:center;
+	text-shadow: 2px 2px gray;
+}
+#lema{
+	color:rgb(0,90,176);
+	font-family:times;
+	text-align:center;
+}
+
+.titulos{
+	color:rgb(52, 152, 219);
+	font-family:times;
+	text-align:center;
+}
+
+p{
+	/*font-family: times;*/
+	text-align: justify;
+	text-indent: 30px;
+	letter-spacing: 1px;
+	line-height: 1;
+	word-spacing: 1px;
+	/*font-family: "Times New Roman", Times ,serif;*/
+	font-style: italic;
+	font-size: .9375em;
+	/*font-weight: lighter;*/
+}
+
+#sticky{
+	position: -webkit-sticky;
+	position: sticky;
+	background-color:rgb(230,230,230);
+	top: 0;
+}
+
+.icon{
+	position: fixed;
+    left: 0;
+    width: 30px;
+    height: 30px;
+}
+
+.fechaHora{
+	text-align:center;
+	font-family: times;
+	font-style: italic;
+	color:rgb(0,90,176);
+	font-weight: bold;
+}
+
+.blinkText{
+	padding-top:100px;
+	text-align:center;
+	font-family: times;
+	font-style: italic;
+	color: rgb(0,0,0);
+	font-weight: bold;
+}
+.footer{
+	text-align:left;
+	margin: 20px;
+	padding: 20px;
+
+}
